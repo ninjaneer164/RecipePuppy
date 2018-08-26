@@ -1,0 +1,42 @@
+app-root {
+    & * {
+        box-sizing: border-box;
+    }
+}
+
+form {
+    display: block;
+    margin : 20px;
+    width  : 100%;
+
+    & > div {
+        display: inline-block;
+        padding: 0 20px 20px;
+
+        &.button-div {
+            display: inline-flex;
+
+            & > * {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+mat-form-field {
+    margin: 0 10px;
+}
+
+.results {
+    display: block;
+    margin : 20px;
+    width  : 100%;
+
+    table {
+        tr {
+            td:last-of-type {
+                font-weight: 100;
+            }
+        }
+    }
+}
